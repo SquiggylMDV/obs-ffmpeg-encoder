@@ -19,3 +19,4 @@ Slice Threading allows individual frames to be done quicker by splitting up the 
 
 ## Macroblock
 This kind of threading is rarely seen and splits the frame into macroblocks, allowing for massive parallelization. Similar latency to Slice threading and can occasionally use SMT/HT better, resulting in better performance.
+
